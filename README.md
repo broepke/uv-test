@@ -4,18 +4,38 @@
 
 1. Navigate to your project directory
 
-```bash
-uv init uv-test
-```
+   ```bash
+   uv init uv-test
+   ```
 
-1. Create a new virtual environment
+2. Create a new virtual environment
 
-```bash
-uv venv
-```
+   ```bash
+   uv venv
+   ```
 
-1. Add packages to your virtual environment
+3. Add or remove packages to your virtual environment
 
-```bash
-uv add pandas seaborn scikit-learn
-```
+   ```bash
+   uv add pandas seaborn scikit-learn
+
+   uv remove pandas
+   ```
+
+4. Add packages from a requirements file
+
+   ```bash
+   uv add -r requirements.txt
+   ```
+
+5. Export your virtual environment
+
+   ```bash
+   uv sync
+   ```
+
+6. See a tree of dependencies
+
+   ```bash
+   uv tree
+   ```
