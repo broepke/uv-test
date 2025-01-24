@@ -28,7 +28,7 @@
    uv add -r requirements.txt
    ```
 
-5. Export your virtual environment
+5. Update your virtual environment
 
    ```bash
    uv sync
